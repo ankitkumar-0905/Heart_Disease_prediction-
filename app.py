@@ -7,7 +7,7 @@ model = joblib.load("LogisticRegression_heart.pkl")
 scaler = joblib.load("Scaler.pkl")
 columns = joblib.load("Columns.pkl")
 
-st.set_page_config(page_title="Heart Disease Predictor")
+st.set_page_config(page_title="Heart Disease Predictor",page_icon="Heartl_ogo.png")
 
 st.title("❤️ Heart Disease Predictor")
 
